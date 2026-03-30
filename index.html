@@ -12,8 +12,8 @@
         window.alert(`Ola, seja bem vindo(a)!`)
         var nome = String(window.prompt (`Qual seu nome?`))
         window.alert(`Bem vindo(a) ${nome}! Vou te contar um pouco da minha experiencia`)
-
     </script>
+    
     <h1>BEM VINDO!</h1>
     <style>
         body{
@@ -25,6 +25,7 @@
         }
         h2{
             color: rgb(0, 0, 0);
+            font-family: monospace;
         }
         p{
             font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -35,7 +36,7 @@
             width: 300px;
             margin: auto;
         }
-        p2{
+        p{
             font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         }
         img{
@@ -54,7 +55,13 @@
         .coluna h4 {
             text-align: center;
         }
+        .links {
+            display: flex;  
+            justify-content: center;
+            gap: 20px;
+        }
     </style>
+    
     <img src="me.png.jfif" width="150" height="200">
     <p>Olá, meu nome é Lucas Gabriel Santos<br>
     Tenho 24 anos, atualmente curso Gestão da Tecnologia da Informação e tenho diversas experiências na áerea da tecnologia. 
@@ -65,7 +72,7 @@
         <li>Aptidão e habilidade para desenvolver auxílio e resolução de problemas de maneira ágil e eficiente  </li>
         <li>Suporte ao cliente de maneira a sanar definitivamente qualquer tipo de incidente  </li>
         <li>Ótimo trabalho em equipe, adepto e flexível a novas formas de pensar 
-Monitoramento de incidentes e resolução ágil </li>
+        <li>Monitoramento de incidentes e resolução ágil </li>
     </ul>
     <div class= Habilidades>
 
@@ -100,13 +107,14 @@ Monitoramento de incidentes e resolução ágil </li>
         </div>
     </div>
     <p>----------Me conheça um pouco melhor no link!----------</p>
-    <p>
-        <a href="https://www.linkedin.com/in/lucas-santos-7047351ba?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">
-            <img src="linkedin.png" alt="" width="80" height="80">
-        </a>
-    </p>
+        <div class="links">
+            <a href="https://www.linkedin.com/in/lucas-santos-7047351ba?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">
+                <img src="linkedin.png" alt="" width="80" height="80">
+            </a>
+            <a href="https://w.app/bjpwda">
+            <img src="zap.png.jpg" alt="" width="80" height="80">
+            </a>
+        </div>
     
-
-
 </body>
 </html>
