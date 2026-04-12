@@ -27,26 +27,29 @@
     25% {color: yellow;}
     50% {color: green;}
     75% {color: blue;}
-    100% {color: black;}
+    100% {color: rgb(0, 0, 0);}
 }
 body{
     text-align: center;
     animation: aparecer 3s ease-in-out;
+    background-color: black;
 }
 header{
+    color: white;
     font-family: 'glitchFont', sans-serif;
     font-style: oblique;
     animation: aparecer 1s ease-in-out;
     font-size: 40px;
-    background-color: rgb(207, 207, 207);
+    background-color: rgb(21, 21, 21);
     padding: 14px 10px;
 }
 h2{
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-family: monospace;
     animation: aparecer 1s ease-in-out;
 }        
 p{
+    color: white;
     font-family: 'normalFont', sans-serif;
     animation: aparecer 0.3s ease-in-out;
     font-size: 14px;
@@ -57,6 +60,7 @@ img{
     animation: aparecer 0.3s ease-in-out;
 }
 .Habilidades {
+    color: white;
     display: flex;
     justify-content: center;
     gap: 40px; /*espaço entre colunas*/
@@ -87,6 +91,7 @@ img{
     transform: scale(1.2);
 }
 .qualif{
-    background-color: rgb(207, 207, 207);
+    color: white;
+    background-color: rgb(20, 20, 20);
     padding: 5px 5px;
 }
